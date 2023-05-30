@@ -1,0 +1,14 @@
+System.TypeInitializationException: The type initializer for 'Effekseer.swig.EffekseerNativePINVOKE' threw an exception.
+ ---> System.TypeInitializationException: The type initializer for 'SWIGExceptionHelper' threw an exception.
+ ---> System.DllNotFoundException: Unable to load DLL 'Viewer' or one of its dependencies: The specified module could not be found. (0x8007007E)
+   at Effekseer.swig.EffekseerNativePINVOKE.SWIGExceptionHelper.SWIGRegisterExceptionCallbacks_EffekseerNative(ExceptionDelegate applicationDelegate, ExceptionDelegate arithmeticDelegate, ExceptionDelegate divideByZeroDelegate, ExceptionDelegate indexOutOfRangeDelegate, ExceptionDelegate invalidCastDelegate, ExceptionDelegate invalidOperationDelegate, ExceptionDelegate ioDelegate, ExceptionDelegate nullReferenceDelegate, ExceptionDelegate outOfMemoryDelegate, ExceptionDelegate overflowDelegate, ExceptionDelegate systemExceptionDelegate)
+   at Effekseer.swig.EffekseerNativePINVOKE.SWIGExceptionHelper..cctor() in C:\Users\enric.delgado\Documents\_Repos\Effekseer\Dev\Editor\EffekseerCoreGUI\swig\EffekseerNativePINVOKE.cs:line 107
+   --- End of inner exception stack trace ---
+   at Effekseer.swig.EffekseerNativePINVOKE.SWIGExceptionHelper..ctor()
+   at Effekseer.swig.EffekseerNativePINVOKE..cctor() in C:\Users\enric.delgado\Documents\_Repos\Effekseer\Dev\Editor\EffekseerCoreGUI\swig\EffekseerNativePINVOKE.cs:line 127
+   --- End of inner exception stack trace ---
+   at Effekseer.swig.EffekseerNativePINVOKE.Logger_SetFileLogger(String jarg1)
+   at Effekseer.swig.Logger.SetFileLogger(String path) in C:\Users\enric.delgado\Documents\_Repos\Effekseer\Dev\Editor\EffekseerCoreGUI\swig\Logger.cs:line 48
+   at Effekseer.Application.Initialize(Boolean gui) in C:\Users\enric.delgado\Documents\_Repos\Effekseer\Dev\Editor\EffekseerCoreGUI\Application.cs:line 91
+   at Effekseer.Program.Exec(Boolean gui, String input, String output, String export, String format, Single magnification, Boolean materialCache) in C:\Users\enric.delgado\Documents\_Repos\Effekseer\Dev\Editor\Effekseer\Program.cs:line 117
+   at Effekseer.Program.Main(String[] args) in C:\Users\enric.delgado\Documents\_Repos\Effekseer\Dev\Editor\Effekseer\Program.cs:line 103

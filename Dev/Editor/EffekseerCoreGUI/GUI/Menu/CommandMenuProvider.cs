@@ -29,6 +29,21 @@ namespace Effekseer.GUI.Menu
 			return menu;
 		}
 
+		public Menu SetCustomMenu()
+		{
+			var menu = new Menu(new MultiLanguageString("Custom"));
+
+			AddRange(menu, new IControl[] { 
+				CreateMenuItemFromCommands(Commands.AddCustomScript),
+				
+				new MenuSeparator(),
+
+				CreateMenuItemFromCommands(Commands.HelloWorld),
+			});
+
+			return menu;
+		}
+
 		public Menu SetupViewMenu()
 		{
 			var menu = new Menu(new MultiLanguageString("View"));

@@ -139,6 +139,7 @@ namespace Effekseer.GUI.Menu
 			this.Controls.Add(_commandMenuProvider.SetupViewMenu());
 			this.Controls.Add(_windowMenu.SetupWindowMenu());
 			this.Controls.Add(_commandMenuProvider.SetupHelpMenu());
+			this.Controls.Add(_commandMenuProvider.SetCustomMenu());
 		}
 	}
 }
