@@ -8,6 +8,10 @@ namespace Effekseer.GUI.Dialog
 		string _title = "Hello World";
 		string _content = "HELLO WORLD!";
 
+		const float _windowWidth = 200;
+		const float _windowHeigth = 200;
+		const float _okButtonSize = 100;
+
 		bool _isFirstUpdate = true;
 
 		bool _opened = true;
@@ -16,7 +20,7 @@ namespace Effekseer.GUI.Dialog
 
 		public void Show()
 		{
-			_title = MultiLanguageTextProvider.GetText("InternalHelloWorld");
+			_title = MultiLanguageTextProvider.GetText("Hello World");
 			Manager.AddControl(this);
 		}
 
@@ -25,22 +29,40 @@ namespace Effekseer.GUI.Dialog
 			if (_isFirstUpdate)
 			{
 				Manager.NativeManager.OpenPopup(_id);
-				Manager.NativeManager.SetNextWindowSize(200 * Manager.DpiScale, 200 * Manager.DpiScale, Effekseer.swig.Cond.Appearing);
+				Manager.NativeManager.SetNextWindowSize(_windowWidth * Manager.DpiScale, _windowHeigth * Manager.DpiScale, Effekseer.swig.Cond.Appearing);
+
 				_isFirstUpdate = false;
 			}
 
 			if (Manager.NativeManager.BeginPopupModal(_title + _id, ref _opened, Effekseer.swig.WindowFlags.None))
 			{
-				Manager.NativeManager.SetCursorPosY(Manager.NativeManager.GetCursorPosY() + 64 / 2 - Manager.NativeManager.GetTextLineHeight() / 2);
+				const float spacing = 32;
+
+				// Add top text spacing
+				Manager.NativeManager.SetCursorPosY(Manager.NativeManager.GetCursorPosY() + spacing - Manager.NativeManager.GetTextLineHeight() / 2);
+
+
+				// Add centering
+				Manager.NativeManager.SetCursorPosX(Manager.NativeManager.GetContentRegionAvail().X / 2 - _windowWidth/8);
+
+				// Display message
 				Manager.NativeManager.Text(_content);
 
-				Manager.NativeManager.SetCursorPosX(Manager.NativeManager.GetContentRegionAvail().X / 2 - 100 / 2);
+				// Add bottom spacing
+				Manager.NativeManager.SetCursorPosY(Manager.NativeManager.GetCursorPosY() + spacing - Manager.NativeManager.GetTextLineHeight() / 2);
 
-				if (Manager.NativeManager.Button("OK", 100))
+
+				// Add centering
+				Manager.NativeManager.SetCursorPosX(Manager.NativeManager.GetContentRegionAvail().X / 2 - _okButtonSize/2);
+
+				// Display button
+				if (Manager.NativeManager.Button("OK", _okButtonSize))
 				{
+					// Add button functionality
 					ShouldBeRemoved = true;
 				}
 
+				// End window
 				Manager.NativeManager.EndPopup();
 			}
 			else

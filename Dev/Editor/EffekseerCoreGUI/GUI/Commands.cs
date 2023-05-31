@@ -499,7 +499,7 @@ namespace Effekseer.GUI
 			return true;
 		}
 
-		[Name(value = "InternalHelloWorld")]
+		[Name(value = "Hello World")]
 		[UniqueName(value = "Internal.HelloWorld")]
 		static public bool HelloWorld()
 		{
