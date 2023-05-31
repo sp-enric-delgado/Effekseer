@@ -42,6 +42,8 @@ namespace Effekseer.GUI
 			register(InsertNode);
 			register(RemoveNode);
 			register(RenameNode);
+
+			register(HelloWorld);
 		}
 
 		[Name(value = "InternalNew")]
@@ -494,6 +496,13 @@ namespace Effekseer.GUI
 		{
 			var messageBox = new GUI.Dialog.About();
 			messageBox.Show();
+			return true;
+		}
+
+		static public bool HelloWorld()
+		{
+			var _helloWorldPopup = new GUI.Dialog.HelloWorld();
+			_helloWorldPopup.Show();
 			return true;
 		}
 
