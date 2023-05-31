@@ -16,6 +16,7 @@ namespace Effekseer.GUI.Dialog
 
 		public void Show()
 		{
+			_title = MultiLanguageTextProvider.GetText("InternalHelloWorld");
 			Manager.AddControl(this);
 		}
 
@@ -24,24 +25,14 @@ namespace Effekseer.GUI.Dialog
 			if (_isFirstUpdate)
 			{
 				Manager.NativeManager.OpenPopup(_id);
-				Manager.NativeManager.SetNextWindowSize(600 * Manager.DpiScale, 400 * Manager.DpiScale, Effekseer.swig.Cond.Appearing);
+				Manager.NativeManager.SetNextWindowSize(200 * Manager.DpiScale, 200 * Manager.DpiScale, Effekseer.swig.Cond.Appearing);
 				_isFirstUpdate = false;
 			}
 
 			if (Manager.NativeManager.BeginPopupModal(_title + _id, ref _opened, Effekseer.swig.WindowFlags.None))
 			{
-				const float iconSize = 64;
-
-				Manager.NativeManager.ImageData(Images.GetIcon("AppIcon"), iconSize, iconSize);
-
-				Manager.NativeManager.SameLine();
-
-				Manager.NativeManager.SetCursorPosY(Manager.NativeManager.GetCursorPosY() + iconSize / 2 - Manager.NativeManager.GetTextLineHeight() / 2);
+				Manager.NativeManager.SetCursorPosY(Manager.NativeManager.GetCursorPosY() + 64 / 2 - Manager.NativeManager.GetTextLineHeight() / 2);
 				Manager.NativeManager.Text(_content);
-
-				Manager.NativeManager.Separator();
-
-				Manager.NativeManager.Separator();
 
 				Manager.NativeManager.SetCursorPosX(Manager.NativeManager.GetContentRegionAvail().X / 2 - 100 / 2);
 

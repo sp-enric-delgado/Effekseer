@@ -499,10 +499,12 @@ namespace Effekseer.GUI
 			return true;
 		}
 
+		[Name(value = "InternalHelloWorld")]
+		[UniqueName(value = "Internal.HelloWorld")]
 		static public bool HelloWorld()
 		{
-			var _helloWorldPopup = new GUI.Dialog.HelloWorld();
-			_helloWorldPopup.Show();
+			var helloWorldPopup = new GUI.Dialog.HelloWorld();
+			helloWorldPopup.Show();
 			return true;
 		}
 
