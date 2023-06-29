@@ -1,0 +1,41 @@
+[2023-06-29 15:13:53.550] [logger] [trace] Native::SetFileLogger : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/Effekseer.log.txt
+[2023-06-29 15:13:53.551] [logger] [trace] End Native::SetFileLogger
+[2023-06-29 15:13:54.044] [logger] [warning] Failed ipc_mem_open_existing : EfkStorage 2 No such file or directory
+[2023-06-29 15:13:54.048] [logger] [trace] GraphicsWindow::Initialize : Begin
+[2023-06-29 15:13:54.048] [logger] [trace] OK new ::efk::Graphics
+[2023-06-29 15:13:54.048] [logger] [trace] GraphicsWindow::Initialize : End
+[2023-06-29 15:13:54.215] [logger] [trace] OK PostProcessing
+[2023-06-29 15:13:54.215] [logger] [trace] HDR true true
+[2023-06-29 15:13:54.215] [logger] [trace] MSAA 4 4
+[2023-06-29 15:13:54.215] [logger] [trace] OK Check format
+[2023-06-29 15:13:54.271] [logger] [trace] OK : CreateRenderers
+[2023-06-29 15:13:54.284] [logger] [trace] OK : Background
+[2023-06-29 15:13:54.307] [logger] [trace] OK : GroundRenderer
+[2023-06-29 15:13:54.315] [logger] [trace] OK Guide
+[2023-06-29 15:13:54.338] [logger] [trace] OK Generic Line Renderer
+[2023-06-29 15:13:54.348] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/Play.png : Succseeded in loading.
+[2023-06-29 15:13:54.349] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/Stop.png : Succseeded in loading.
+[2023-06-29 15:13:54.350] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/Pause.png : Succseeded in loading.
+[2023-06-29 15:13:54.351] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/Step.png : Succseeded in loading.
+[2023-06-29 15:13:54.351] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/BackStep.png : Succseeded in loading.
+[2023-06-29 15:13:54.352] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/Copy.png : Succseeded in loading.
+[2023-06-29 15:13:54.352] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/Paste.png : Succseeded in loading.
+[2023-06-29 15:13:54.353] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/Help.png : Succseeded in loading.
+[2023-06-29 15:13:54.353] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icon.png : Succseeded in loading.
+[2023-06-29 15:13:54.354] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/Visible_Show.png : Succseeded in loading.
+[2023-06-29 15:13:54.355] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/Visible_Hide.png : Succseeded in loading.
+[2023-06-29 15:13:54.355] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/EnlargeAnchor.png : Succseeded in loading.
+[2023-06-29 15:13:54.356] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/ShrinkAnchor.png : Succseeded in loading.
+[2023-06-29 15:13:54.356] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/AutoZoom_On.png : Succseeded in loading.
+[2023-06-29 15:13:54.357] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/AutoZoom_Off.png : Succseeded in loading.
+[2023-06-29 15:13:54.357] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/Button_Min.png : Succseeded in loading.
+[2023-06-29 15:13:54.357] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/Button_Max.png : Succseeded in loading.
+[2023-06-29 15:13:54.358] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/Button_MaxCancel.png : Succseeded in loading.
+[2023-06-29 15:13:54.358] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/Button_Close.png : Succseeded in loading.
+[2023-06-29 15:13:54.358] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/FileEfkefc128.png : Succseeded in loading.
+[2023-06-29 15:13:54.359] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/FileEfkmat128.png : Succseeded in loading.
+[2023-06-29 15:13:54.360] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/FileModel128.png : Succseeded in loading.
+[2023-06-29 15:13:54.361] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/FileCurve128.png : Succseeded in loading.
+[2023-06-29 15:13:54.361] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/FileSound128.png : Succseeded in loading.
+[2023-06-29 15:13:54.362] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/FileOther128.png : Succseeded in loading.
+[2023-06-29 15:13:54.362] [logger] [trace] DefaultStaticFileReader : /Users/enric.delgado/Documents/_Repos/Effekseer/Dev/release/resources/icons/FileFolder128.png : Succseeded in loading.

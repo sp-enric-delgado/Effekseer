@@ -9,6 +9,7 @@
     ".NETCoreApp,Version=v6.0/osx.10.11-x64": {
       "Effekseer/1.0.0": {
         "dependencies": {
+          "Effekseer.SDK": "1.0.0",
           "EffekseerCore": "1.0.0",
           "EffekseerCoreGUI": "1.0.0",
           "Microsoft.CSharp": "4.7.0",
@@ -841,6 +842,11 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.0"
         }
       },
+      "Effekseer.SDK/1.0.0": {
+        "runtime": {
+          "Effekseer.SDK.dll": {}
+        }
+      },
       "EffekseerCore/1.0.0": {
         "dependencies": {
           "IronPython": "2.7.9",
@@ -969,6 +975,11 @@
       "sha512": "sha512-S0wEUiKcLvRlkFUXca8uio1UQ5bYQzYgOmOKtCqaBQC3GR9AJjh43otcM32IGsAyvadFTaAMw9Irm6dS4Evfng==",
       "path": "system.text.encoding.codepages/4.5.0",
       "hashPath": "system.text.encoding.codepages.4.5.0.nupkg.sha512"
+    },
+    "Effekseer.SDK/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "EffekseerCore/1.0.0": {
       "type": "project",
