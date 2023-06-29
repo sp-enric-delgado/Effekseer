@@ -10,6 +10,7 @@ namespace Effekseer.GUI.Menu
 		private readonly CommandMenuProvider _commandMenuProvider;
 		private readonly WindowTitleControl _windowTitleControl = new WindowTitleControl();
 		private readonly WindowMenu _windowMenu = new WindowMenu();
+		private readonly CustomMenu _customMenu = new CustomMenu();
 
 		internal List<IControl> Controls = new List<IControl>();
 
@@ -139,6 +140,7 @@ namespace Effekseer.GUI.Menu
 			this.Controls.Add(_commandMenuProvider.SetupViewMenu());
 			this.Controls.Add(_windowMenu.SetupWindowMenu());
 			this.Controls.Add(_commandMenuProvider.SetupHelpMenu());
+			this.Controls.Add(_customMenu.SetUpCustomMenu());
 		}
 	}
 }
