@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCSharp", "TestCSharp\Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EffekseerCoreGUI", "EffekseerCoreGUI\EffekseerCoreGUI.csproj", "{5F18AFCD-CD2C-4097-9806-E0C5E3FB86CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Effekseer.SDK", "Effekseer.SDK\Effekseer.SDK.csproj", "{DC502171-8989-4B8A-A8E5-7ADBF7C4F499}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -56,6 +58,14 @@ Global
 		{5F18AFCD-CD2C-4097-9806-E0C5E3FB86CB}.Release|x64.Build.0 = Release|x64
 		{5F18AFCD-CD2C-4097-9806-E0C5E3FB86CB}.Release|x86.ActiveCfg = Release|x86
 		{5F18AFCD-CD2C-4097-9806-E0C5E3FB86CB}.Release|x86.Build.0 = Release|x86
+		{DC502171-8989-4B8A-A8E5-7ADBF7C4F499}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DC502171-8989-4B8A-A8E5-7ADBF7C4F499}.Debug|x64.Build.0 = Debug|Any CPU
+		{DC502171-8989-4B8A-A8E5-7ADBF7C4F499}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DC502171-8989-4B8A-A8E5-7ADBF7C4F499}.Debug|x86.Build.0 = Debug|Any CPU
+		{DC502171-8989-4B8A-A8E5-7ADBF7C4F499}.Release|x64.ActiveCfg = Release|Any CPU
+		{DC502171-8989-4B8A-A8E5-7ADBF7C4F499}.Release|x64.Build.0 = Release|Any CPU
+		{DC502171-8989-4B8A-A8E5-7ADBF7C4F499}.Release|x86.ActiveCfg = Release|Any CPU
+		{DC502171-8989-4B8A-A8E5-7ADBF7C4F499}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
