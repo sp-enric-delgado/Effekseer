@@ -24,6 +24,7 @@
   <ItemGroup>
     <ProjectReference Include="..\EffekseerCore\EffekseerCore.csproj" />
     <ProjectReference Include="..\EffekseerCoreGUI\EffekseerCoreGUI.csproj" />
+    <ProjectReference Include="..\Effekseer.SDK\Effekseer.SDK.csproj" />
   </ItemGroup>
 
 </Project>
